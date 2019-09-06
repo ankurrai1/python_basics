@@ -20,11 +20,9 @@ def matched(s):
 
 def isPrime(num):
     if num < 2: return False
-    div = 2
-    while div < num:
-        if num%div==0:
+    for i in range(2,num):
+        if num % i == 0:
             return False
-        div += 1
     return True
 
 def sumprimes(l):
@@ -33,7 +31,5 @@ def sumprimes(l):
         if(isPrime(item)):
             sum += item
     return sum
-
-
-
-print(sumprimes([-3,1,6]))
+ 
+print(isPrime(9))
