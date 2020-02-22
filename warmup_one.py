@@ -16,6 +16,7 @@ def sum_double(first_num,second_num):
         return sum*2
     return sum
 
+
 def find_life():
     life = input()
     while(life != 42):
