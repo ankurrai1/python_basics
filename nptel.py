@@ -31,5 +31,3 @@ def sumprimes(l):
         if(isPrime(item)):
             sum += item
     return sum
- 
-print(isPrime(9))
