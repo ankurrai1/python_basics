@@ -6,6 +6,7 @@ def intreverse(num):
         num = int(num / 10)
     return result
 
+
 def matched(s):
     stack = []
     for item in s:
@@ -18,12 +19,14 @@ def matched(s):
     if len(stack) > 0: return False
     else: return True
 
+    
 def isPrime(num):
     if num < 2: return False
     for i in range(2,num):
         if num % i == 0:
             return False
     return True
+
 
 def sumprimes(l):
     sum = 0
