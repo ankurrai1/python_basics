@@ -20,7 +20,6 @@ class TestOfWarmupOne(unittest.TestCase):
         self.assertEqual(result,000)
 
 
-
 # RUN THE TEST 
 if __name__ == "__main__":
     unittest.main()
