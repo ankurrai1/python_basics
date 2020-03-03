@@ -10,6 +10,7 @@ def monkey_trouble(a_smile,b_smile):
         return True
     else:
         return False
+    
 
 def sum_double(first_num,second_num):
     sum = first_num + second_num
