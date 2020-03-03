@@ -1,3 +1,3 @@
 def rotate(m):
-    result = []
+    result = m[::-1]
     
